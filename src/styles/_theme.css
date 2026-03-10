@@ -1,38 +1,17 @@
 :root {
-  --ac-color-primary: #002855;
-  --ac-color-primary-hover: #003366;
-  --ac-color-primary-active: #001a38;
-  --ac-color-primary-light: #f1f5f9;
-  --ac-color-primary-accent: #5bc2e7;
-
-  --ac-color-background: #f1f5f9;
+  --ac-color-primary: #0a8fa5;
+  --ac-color-primary-hover: #13a9c1;
+  --ac-color-success: #2e7d32;
+  --ac-color-warning: #ed6c02;
+  --ac-color-danger: #d32f2f;
+  --ac-color-info: #0e9db6;
   --ac-color-surface: #ffffff;
-  --ac-color-border: #f1f5f9;
-
-  --ac-color-secondary: #475569;
-  --ac-color-secondary-light: #94a3b8;
-
-  --ac-color-success: #a2d033;
-  --ac-color-success-bg: rgba(162, 208, 51, 0.05);
-  --ac-color-success-text: #7a9f26;
-
-  --ac-color-warning: #f59e0b;
-  --ac-color-warning-bg: rgba(245, 158, 11, 0.05);
-  --ac-color-warning-text: #d97706;
-
-  --ac-color-danger: #ef4444;
-  --ac-color-danger-bg: rgba(239, 68, 68, 0.05);
-  --ac-color-danger-text: #dc2626;
-
-  --ac-color-info: #5bc2e7;
-
-  --ac-color-text: #0f172a;
-  --ac-color-neutral-700: #334155;
-  --ac-color-neutral-500: #64748b;
-  --ac-color-neutral-300: #cbd5e1;
-  --ac-color-neutral-100: #f1f5f9;
-  --ac-color-neutral-50: #f8fafc;
-  --ac-color-white: #ffffff;
+  --ac-color-text: #1f2937;
+  --ac-color-border: #e5e7eb;
+  --ac-color-neutral-700: #374151;
+  --ac-color-neutral-500: #6b7280;
+  --ac-color-neutral-300: #d1d5db;
+  --ac-color-neutral-100: #f3f4f6;
 
   --ac-font-family-base: "Source Sans 3", "Segoe UI", Arial, sans-serif;
   --ac-font-family-mono: "JetBrains Mono", "Cascadia Mono", "Consolas", monospace;
@@ -71,25 +50,9 @@
   --ac-radius-xl: 16px;
   --ac-radius-pill: 999px;
 
-  --ac-radius-cerca: 1.25rem;
-  --ac-radius-cerca-sm: 0.75rem;
-  --ac-radius-cerca-lg: 2rem;
-
   --ac-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.08);
   --ac-shadow-md: 0 4px 12px rgba(15, 23, 42, 0.12);
   --ac-shadow-lg: 0 12px 24px rgba(15, 23, 42, 0.16);
-
-  --ac-shadow-premium: 0 10px 25px -5px rgba(0, 0, 0, 0.05),
-    0 8px 10px -6px rgba(0, 0, 0, 0.05);
-  --ac-shadow-premium-hover: 0 30px 40px -5px rgba(0, 0, 0, 0.05),
-    0 15px 20px -5px rgba(0, 0, 0, 0.03);
-  --ac-shadow-glass: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
-  --ac-shadow-sidebar: 4px 0 24px 0 rgba(0, 0, 0, 0.05);
-  --ac-shadow-glow-primary: 0 0 20px rgba(91, 194, 231, 0.15);
-
-  --ac-gradient-premium: linear-gradient(135deg, #002855 0%, #001a38 100%);
-  --ac-gradient-glass: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
-  --ac-gradient-accent: linear-gradient(135deg, #5bc2e7 0%, #002855 100%);
 
   --ac-motion-fast: 120ms;
   --ac-motion-base: 200ms;
