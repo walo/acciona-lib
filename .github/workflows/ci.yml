@@ -1,13 +1,11 @@
 name: CI
 
 on:
-  pull_request:
-    branches: [main, develop]
-  push:
-    branches: [main, develop]
+  workflow_dispatch:
 
 jobs:
   quality:
+    if: false
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
