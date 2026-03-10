@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
 import { AcInputComponent } from '../../atoms/input';
+import { AcIconComponent } from '../../atoms/icon';
 
 @Component({
   selector: 'ac-password-field',
@@ -8,7 +9,7 @@ import { AcInputComponent } from '../../atoms/input';
   templateUrl: './password-field.component.html',
   styleUrls: ['./password-field.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [CommonModule, AcInputComponent]
+  imports: [CommonModule, AcInputComponent, AcIconComponent]
 })
 export class AcPasswordFieldComponent {
   @Input() placeholder = 'Contrasena';

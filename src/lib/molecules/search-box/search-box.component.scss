@@ -3,12 +3,16 @@
   align-items: center;
   gap: var(--ac-space-sm);
   width: 100%;
-  min-width: 260px;
+  min-width: 0;
 }
 
 .ac-search-box__input {
-  flex: 1;
-  min-width: 200px;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.ac-search-box__input .ac-input {
+  min-width: 0;
 }
 
 .ac-search-box ac-input {
@@ -17,4 +21,5 @@
 
 .ac-search-box ac-button {
   white-space: nowrap;
+  flex: 0 0 auto;
 }

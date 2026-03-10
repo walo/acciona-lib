@@ -14,11 +14,25 @@ import { AcAutocompleteOption } from './autocomplete.types';
 export class AcAutocompleteComponent {
   @Input() options: AcAutocompleteOption[] = [];
   @Input() value = '';
+  @Input() placeholder = 'Buscar';
 
   @Output() valueChange = new EventEmitter<string>();
+
+  get filteredOptions(): AcAutocompleteOption[] {
+    const query = this.value.trim().toLowerCase();
+    if (!query) {
+      return this.options;
+    }
+    return this.options.filter((option) => option.label.toLowerCase().includes(query));
+  }
 
   onValueChange(next: string): void {
     this.value = next;
     this.valueChange.emit(next);
+  }
+
+  select(option: AcAutocompleteOption): void {
+    this.value = option.label;
+    this.valueChange.emit(option.label);
   }
 }

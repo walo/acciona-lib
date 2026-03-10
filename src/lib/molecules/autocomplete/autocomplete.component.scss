@@ -1,9 +1,28 @@
+.ac-autocomplete {
+  width: 100%;
+}
+
 .ac-autocomplete__list {
   margin-top: var(--ac-space-xs);
   border: 1px solid var(--ac-color-border);
   border-radius: var(--ac-radius-md);
+  background: var(--ac-color-surface);
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 4px;
 }
 
 .ac-autocomplete__item {
   padding: var(--ac-space-xs) var(--ac-space-sm);
+  border: none;
+  background: transparent;
+  text-align: left;
+  border-radius: var(--ac-radius-sm);
+  cursor: pointer;
+  font: inherit;
+}
+
+.ac-autocomplete__item:hover {
+  background: var(--ac-color-neutral-100);
 }
