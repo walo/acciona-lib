@@ -1,0 +1,36 @@
+<header class="ac-app-header">
+  <div class="ac-app-header__left">
+    <span class="ac-app-header__logo"></span>
+    <span class="ac-app-header__title">{{ productName }}</span>
+  </div>
+
+  <div class="ac-app-header__center" *ngIf="showSearch">
+    <ac-search-box
+      [placeholder]="'Buscar en ' + productName"
+      (search)="onSearch($event)"
+    ></ac-search-box>
+  </div>
+
+  <div class="ac-app-header__right">
+    <button
+      *ngIf="showNotifications"
+      class="ac-app-header__icon-button"
+      type="button"
+      (click)="onNotification()"
+      aria-label="Notifications"
+    >
+      <ac-icon name="bell" [size]="18"></ac-icon>
+    </button>
+
+    <button
+      *ngIf="showProfile"
+      class="ac-app-header__profile"
+      type="button"
+      (click)="onProfile()"
+      aria-label="User profile"
+    >
+      <span class="ac-app-header__avatar">U</span>
+      <span class="ac-app-header__profile-text">Mi perfil</span>
+    </button>
+  </div>
+</header>

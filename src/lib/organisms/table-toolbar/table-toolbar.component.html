@@ -1,0 +1,40 @@
+<div class="ac-table-toolbar">
+  <div class="ac-table-toolbar__left">
+    <span class="ac-table-toolbar__title">{{ title }}</span>
+    <button
+      *ngIf="showFilters"
+      class="ac-table-toolbar__chip"
+      type="button"
+      (click)="onFilters()"
+    >
+      <ac-icon name="filter" [size]="14"></ac-icon>
+      Filtros
+    </button>
+  </div>
+
+  <div class="ac-table-toolbar__right">
+    <div class="ac-table-toolbar__search" *ngIf="showSearch">
+      <ac-search-box (search)="onSearch($event)"></ac-search-box>
+    </div>
+
+    <button
+      *ngIf="showExport"
+      class="ac-table-toolbar__icon-button"
+      type="button"
+      (click)="onExport()"
+      aria-label="Export"
+    >
+      <ac-icon name="download" [size]="16"></ac-icon>
+    </button>
+
+    <button
+      *ngIf="showSettings"
+      class="ac-table-toolbar__icon-button"
+      type="button"
+      (click)="onSettings()"
+      aria-label="Settings"
+    >
+      <ac-icon name="settings" [size]="16"></ac-icon>
+    </button>
+  </div>
+</div>
