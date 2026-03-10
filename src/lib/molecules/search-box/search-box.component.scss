@@ -1,0 +1,13 @@
+.ac-search-box {
+  display: flex;
+  align-items: center;
+  gap: var(--ac-space-sm);
+}
+
+.ac-search-box__input {
+  flex: 1;
+}
+
+.ac-search-box ac-button {
+  white-space: nowrap;
+}

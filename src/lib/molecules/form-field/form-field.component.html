@@ -1,0 +1,15 @@
+<div class="ac-form-field">
+  <label class="ac-form-field__label" [attr.for]="id">
+    {{ label }}
+    <span *ngIf="required" class="ac-form-field__required">*</span>
+  </label>
+
+  <div class="ac-form-field__control" [attr.data-status]="status">
+    <ng-content></ng-content>
+  </div>
+
+  <div class="ac-form-field__meta">
+    <span *ngIf="hasError" class="ac-form-field__error">{{ errorText }}</span>
+    <span *ngIf="!hasError && helperText" class="ac-form-field__helper">{{ helperText }}</span>
+  </div>
+</div>

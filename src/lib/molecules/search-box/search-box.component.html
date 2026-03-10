@@ -1,0 +1,20 @@
+<div class="ac-search-box">
+  <div class="ac-search-box__input" (keydown)="onKeydown($event)">
+    <ac-input
+      [placeholder]="placeholder"
+      [clearable]="true"
+      [disabled]="disabled"
+      [value]="value"
+      (valueChange)="onValueChange($event)"
+    ></ac-input>
+  </div>
+
+  <ac-button
+    [disabled]="disabled"
+    size="sm"
+    variant="primary"
+    (click)="onSubmit()"
+  >
+    {{ buttonLabel }}
+  </ac-button>
+</div>
