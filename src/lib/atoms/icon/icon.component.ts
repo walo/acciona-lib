@@ -18,6 +18,6 @@ export class AcIconComponent {
   }
 
   get iconHref(): string {
-    return ${this.spritePath}#;
+    return `${this.spritePath}#${this.name}`;
   }
 }
