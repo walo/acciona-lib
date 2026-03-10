@@ -1,3 +1,7 @@
+.ac-select-search {
+  width: 100%;
+}
+
 .ac-select-search__list {
   margin-top: var(--ac-space-xs);
   border: 1px solid var(--ac-color-border);
@@ -5,6 +9,7 @@
   background: var(--ac-color-surface);
   max-height: 160px;
   overflow: auto;
+  width: 100%;
 }
 
 .ac-select-search__item {

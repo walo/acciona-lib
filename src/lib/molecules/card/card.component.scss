@@ -1,0 +1,51 @@
+.ac-card {
+  width: 100%;
+  border-radius: var(--ac-radius-lg);
+  border: 1px solid var(--ac-color-border);
+  background: var(--ac-color-surface);
+  box-shadow: var(--ac-shadow-sm);
+  display: flex;
+  flex-direction: column;
+}
+
+.ac-card__header {
+  padding: var(--ac-space-md);
+  border-bottom: 1px solid var(--ac-color-border);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--ac-space-sm);
+}
+
+.ac-card__title h3 {
+  margin: 0;
+  font-size: var(--ac-font-size-md);
+}
+
+.ac-card__title p {
+  margin: var(--ac-space-xxs) 0 0;
+  font-size: var(--ac-font-size-sm);
+  color: var(--ac-color-neutral-500);
+}
+
+.ac-card__actions {
+  display: flex;
+  align-items: center;
+  gap: var(--ac-space-xs);
+}
+
+.ac-card__content {
+  padding: var(--ac-space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--ac-space-sm);
+}
+
+.ac-card__footer {
+  padding: var(--ac-space-md);
+  border-top: 1px solid var(--ac-color-border);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--ac-space-sm);
+}

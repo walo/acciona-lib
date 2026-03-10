@@ -1,0 +1,17 @@
+<section class="ac-card">
+  <header class="ac-card__header" *ngIf="showHeader">
+    <div class="ac-card__title">
+      <h3 *ngIf="title">{{ title }}</h3>
+      <p *ngIf="description">{{ description }}</p>
+    </div>
+    <div class="ac-card__actions" *ngIf="showActions">
+      <ng-content select="[slot=actions]"></ng-content>
+    </div>
+  </header>
+  <div class="ac-card__content">
+    <ng-content></ng-content>
+  </div>
+  <footer class="ac-card__footer" *ngIf="showFooter">
+    <ng-content select="[slot=footer]"></ng-content>
+  </footer>
+</section>
