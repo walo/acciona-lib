@@ -2,5 +2,8 @@
   "dest": "dist",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "assets": [
+    "src/styles/_theme.css"
+  ]
 }
