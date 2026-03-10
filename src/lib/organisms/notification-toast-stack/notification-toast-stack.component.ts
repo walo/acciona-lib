@@ -1,10 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { AcToastComponent } from '../../molecules/toast';
-
-export interface AcToastStackItem {
-  message: string;
-}
+import { AcToastStackItem } from './notification-toast-stack.types';
 
 @Component({
   selector: 'ac-notification-toast-stack',

@@ -1,11 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-
-export interface AcSideNavItem {
-  label: string;
-  href?: string;
-  active?: boolean;
-}
+import { AcSideNavItem } from './side-navigation.types';
 
 @Component({
   selector: 'ac-side-navigation',

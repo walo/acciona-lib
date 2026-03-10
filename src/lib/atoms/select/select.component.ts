@@ -1,11 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
-
-export interface AcSelectOption {
-  label: string;
-  value: string;
-  disabled?: boolean;
-}
+import { AcSelectOption } from './select.types';
 
 @Component({
   selector: 'ac-select',

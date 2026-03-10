@@ -1,11 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
 import { AcInputComponent } from '../../atoms/input';
-
-export interface AcSelectSearchOption {
-  label: string;
-  value: string;
-}
+import { AcSelectSearchOption } from './select-search.types';
 
 @Component({
   selector: 'ac-select-search',

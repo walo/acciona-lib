@@ -1,12 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-
-export interface AcNotificationItem {
-  title: string;
-  description?: string;
-  time?: string;
-  read?: boolean;
-}
+import { AcNotificationItem } from './notification-center.types';
 
 @Component({
   selector: 'ac-notification-center',
