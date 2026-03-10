@@ -1,0 +1,34 @@
+.ac-avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--ac-radius-pill);
+  background: var(--ac-color-neutral-300);
+  color: var(--ac-color-neutral-700);
+  font-weight: var(--ac-font-weight-medium);
+  overflow: hidden;
+}
+
+.ac-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.ac-avatar--sm {
+  width: 28px;
+  height: 28px;
+  font-size: var(--ac-font-size-xs);
+}
+
+.ac-avatar--md {
+  width: 36px;
+  height: 36px;
+  font-size: var(--ac-font-size-sm);
+}
+
+.ac-avatar--lg {
+  width: 48px;
+  height: 48px;
+  font-size: var(--ac-font-size-md);
+}

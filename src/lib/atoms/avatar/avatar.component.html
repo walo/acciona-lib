@@ -1,0 +1,6 @@
+<span [class]="avatarClass">
+  <ng-container *ngIf="imageUrl; else initialsTpl">
+    <img [src]="imageUrl" alt="Avatar" />
+  </ng-container>
+  <ng-template #initialsTpl>{{ initials }}</ng-template>
+</span>

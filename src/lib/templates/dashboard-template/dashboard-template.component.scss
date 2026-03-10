@@ -1,0 +1,11 @@
+.ac-dashboard-template__sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ac-space-sm);
+}
+
+.ac-dashboard-template__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ac-space-lg);
+}

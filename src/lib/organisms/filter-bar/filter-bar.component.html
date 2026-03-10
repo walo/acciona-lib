@@ -1,0 +1,7 @@
+<div class="ac-filter-bar">
+  <span class="ac-filter-bar__title" *ngIf="title">{{ title }}</span>
+  <div class="ac-filter-bar__content">
+    <ng-content></ng-content>
+  </div>
+  <ac-search-box *ngIf="showSearch" (search)="onSearch($event)"></ac-search-box>
+</div>

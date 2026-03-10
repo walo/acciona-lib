@@ -6,11 +6,20 @@ Bloques funcionales que combinan molecules y atoms.
 
 - AppHeader
 - TableToolbar
+- SideNavigation
+- FilterBar
+- AppFooter
 
 ## Uso rapido
 
 ```ts
-import { AcAppHeaderComponent, AcTableToolbarComponent } from '@acciona/ui-lib';
+import {
+  AcAppHeaderComponent,
+  AcTableToolbarComponent,
+  AcSideNavigationComponent,
+  AcFilterBarComponent,
+  AcAppFooterComponent
+} from '@acciona/ui-lib';
 ```
 
 ## Ejemplo

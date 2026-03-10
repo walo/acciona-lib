@@ -1,0 +1,24 @@
+.ac-stat-card {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ac-space-xxs);
+  padding: var(--ac-space-md);
+  border-radius: var(--ac-radius-lg);
+  border: 1px solid var(--ac-color-border);
+  background: var(--ac-color-surface);
+}
+
+.ac-stat-card__title {
+  font-size: var(--ac-font-size-sm);
+  color: var(--ac-color-neutral-500);
+}
+
+.ac-stat-card__value {
+  font-size: var(--ac-font-size-xl);
+  font-weight: var(--ac-font-weight-semibold);
+}
+
+.ac-stat-card__trend {
+  font-size: var(--ac-font-size-xs);
+  color: var(--ac-color-success);
+}

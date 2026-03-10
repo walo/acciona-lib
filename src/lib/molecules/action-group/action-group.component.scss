@@ -1,0 +1,9 @@
+.ac-action-group {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--ac-space-sm);
+}
+
+.ac-action-group--end {
+  justify-content: flex-end;
+}

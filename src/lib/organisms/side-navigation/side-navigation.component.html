@@ -1,0 +1,10 @@
+<nav class="ac-side-navigation">
+  <a
+    *ngFor="let item of items"
+    class="ac-side-navigation__item"
+    [class.ac-side-navigation__item--active]="item.active"
+    [href]="item.href || '#'"
+  >
+    {{ item.label }}
+  </a>
+</nav>

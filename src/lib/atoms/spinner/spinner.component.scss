@@ -1,0 +1,28 @@
+.ac-spinner {
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid var(--ac-color-neutral-300);
+  border-top-color: var(--ac-color-primary);
+  animation: ac-spinner-rotate 0.8s linear infinite;
+}
+
+.ac-spinner--sm {
+  width: 16px;
+  height: 16px;
+}
+
+.ac-spinner--md {
+  width: 24px;
+  height: 24px;
+}
+
+.ac-spinner--lg {
+  width: 32px;
+  height: 32px;
+}
+
+@keyframes ac-spinner-rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}

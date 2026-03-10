@@ -1,0 +1,9 @@
+<nav class="ac-breadcrumb" aria-label="Breadcrumb">
+  <ng-container *ngFor="let item of items; let last = last">
+    <a *ngIf="item.href; else textTpl" class="ac-breadcrumb__link" [href]="item.href">{{ item.label }}</a>
+    <ng-template #textTpl>
+      <span class="ac-breadcrumb__text">{{ item.label }}</span>
+    </ng-template>
+    <span *ngIf="!last" class="ac-breadcrumb__separator">/</span>
+  </ng-container>
+</nav>

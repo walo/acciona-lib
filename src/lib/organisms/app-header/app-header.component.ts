@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
 import { AcButtonComponent } from '../../atoms/button';
 import { AcIconComponent } from '../../atoms/icon';
@@ -9,7 +10,7 @@ import { AcSearchBoxComponent } from '../../molecules/search-box';
   templateUrl: './app-header.component.html',
   styleUrls: ['./app-header.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [AcButtonComponent, AcIconComponent, AcSearchBoxComponent]
+  imports: [CommonModule, AcButtonComponent, AcIconComponent, AcSearchBoxComponent]
 })
 export class AcAppHeaderComponent {
   @Input() productName = 'Producto';

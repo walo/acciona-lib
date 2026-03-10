@@ -1,0 +1,41 @@
+.ac-typography {
+  font-family: var(--ac-font-family-base);
+  color: var(--ac-color-text);
+}
+
+.ac-typography--h1 {
+  font-size: var(--ac-font-size-display);
+  font-weight: var(--ac-font-weight-bold);
+}
+
+.ac-typography--h2 {
+  font-size: var(--ac-font-size-xxl);
+  font-weight: var(--ac-font-weight-semibold);
+}
+
+.ac-typography--h3 {
+  font-size: var(--ac-font-size-xl);
+  font-weight: var(--ac-font-weight-semibold);
+}
+
+.ac-typography--body {
+  font-size: var(--ac-font-size-md);
+  font-weight: var(--ac-font-weight-regular);
+}
+
+.ac-typography--caption {
+  font-size: var(--ac-font-size-xs);
+  color: var(--ac-color-neutral-500);
+}
+
+.ac-typography--medium {
+  font-weight: var(--ac-font-weight-medium);
+}
+
+.ac-typography--semibold {
+  font-weight: var(--ac-font-weight-semibold);
+}
+
+.ac-typography--bold {
+  font-weight: var(--ac-font-weight-bold);
+}

@@ -1,0 +1,19 @@
+.ac-breadcrumb {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--ac-space-xxs);
+  font-size: var(--ac-font-size-sm);
+}
+
+.ac-breadcrumb__link {
+  color: var(--ac-color-primary);
+  text-decoration: none;
+}
+
+.ac-breadcrumb__text {
+  color: var(--ac-color-text);
+}
+
+.ac-breadcrumb__separator {
+  color: var(--ac-color-neutral-500);
+}

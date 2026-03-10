@@ -1,0 +1,12 @@
+.ac-settings-page__link {
+  display: block;
+  margin-bottom: var(--ac-space-xs);
+  color: var(--ac-color-text);
+  text-decoration: none;
+}
+
+.ac-settings-page__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ac-space-md);
+}

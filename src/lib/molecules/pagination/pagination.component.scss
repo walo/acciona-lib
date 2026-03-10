@@ -1,0 +1,23 @@
+.ac-pagination {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--ac-space-sm);
+  font-size: var(--ac-font-size-sm);
+}
+
+.ac-pagination button {
+  border: 1px solid var(--ac-color-border);
+  background: var(--ac-color-surface);
+  border-radius: var(--ac-radius-sm);
+  padding: 4px var(--ac-space-sm);
+  cursor: pointer;
+}
+
+.ac-pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.ac-pagination__info {
+  color: var(--ac-color-neutral-500);
+}

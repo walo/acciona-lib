@@ -1,0 +1,23 @@
+.ac-divider {
+  background: var(--ac-color-border);
+}
+
+.ac-divider--horizontal {
+  height: 1px;
+  width: 100%;
+}
+
+.ac-divider--vertical {
+  width: 1px;
+  height: 100%;
+}
+
+.ac-divider--dashed {
+  background: transparent;
+  border-top: 1px dashed var(--ac-color-border);
+}
+
+.ac-divider--vertical.ac-divider--dashed {
+  border-top: none;
+  border-left: 1px dashed var(--ac-color-border);
+}

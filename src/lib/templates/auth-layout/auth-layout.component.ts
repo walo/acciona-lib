@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 
 @Component({
@@ -5,7 +6,8 @@ import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
   standalone: true,
   templateUrl: './auth-layout.component.html',
   styleUrls: ['./auth-layout.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  imports: [CommonModule]
 })
 export class AcAuthLayoutComponent {
   @Input() backgroundVariant: 'solid' | 'gradient' | 'image' = 'gradient';

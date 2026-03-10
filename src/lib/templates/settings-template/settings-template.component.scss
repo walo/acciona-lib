@@ -1,0 +1,11 @@
+.ac-settings-template__sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ac-space-sm);
+}
+
+.ac-settings-template__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ac-space-md);
+}
