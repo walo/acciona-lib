@@ -2,9 +2,11 @@
   position: relative;
   display: inline-flex;
   align-items: center;
+  width: 100%;
 }
 
 .ac-input {
+  display: block;
   width: 100%;
   min-width: 200px;
   padding: var(--ac-space-xs) var(--ac-space-md);
@@ -17,6 +19,10 @@
   background-color: var(--ac-color-surface);
   transition: border-color var(--ac-motion-base) var(--ac-easing-standard),
     box-shadow var(--ac-motion-base) var(--ac-easing-standard);
+}
+
+.ac-input--clearable {
+  padding-right: calc(var(--ac-space-md) + 28px);
 }
 
 .ac-input:focus {
