@@ -1,9 +1,21 @@
-<button
-  class="ac-input__clear"
-  type="button"
-  [style.display]="showClear ? 'inline-flex' : 'none'"
-  (click)="onClear()"
-  aria-label="Clear input"
->
-  x
-</button>
+<div class="ac-input__wrapper">
+  <input
+    [class]="inputClass"
+    [class.ac-input--clearable]="clearable"
+    [attr.type]="type"
+    [attr.placeholder]="placeholder"
+    [disabled]="disabled"
+    [value]="value"
+    (input)="onInput($event)"
+    aria-label="Input"
+  />
+  <button
+    class="ac-input__clear"
+    type="button"
+    [style.display]="showClear ? 'inline-flex' : 'none'"
+    (click)="onClear()"
+    aria-label="Clear input"
+  >
+    x
+  </button>
+</div>
