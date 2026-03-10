@@ -21,8 +21,7 @@
   z-index: 1;
 }
 
-.ac-modal__header,
-.ac-modal__footer {
+.ac-modal__header {
   padding: var(--ac-space-md) var(--ac-space-lg);
   border-bottom: 1px solid var(--ac-color-border);
   display: flex;
@@ -31,8 +30,12 @@
 }
 
 .ac-modal__footer {
-  border-bottom: none;
+  padding: var(--ac-space-md) var(--ac-space-lg);
   border-top: 1px solid var(--ac-color-border);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--ac-space-sm);
 }
 
 .ac-modal__body {
