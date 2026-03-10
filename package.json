@@ -27,5 +27,8 @@
     "design-system",
     "acciona"
   ],
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "exports": {
+    "./styles/_theme.css": "./styles/_theme.css"
+  }
 }

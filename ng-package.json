@@ -4,7 +4,7 @@
     "entryFile": "src/public-api.ts"
   },
   "assets": [
-    "src/styles/_theme.css",
+    { "input": "src/styles", "glob": "**/*", "output": "styles" },
     "src/package.json"
   ]
 }
