@@ -1,5 +1,8 @@
-<span
-  [class]="iconClass"
-  [style.fontSize.px]="size"
+<svg
+  [attr.class]="iconClass"
+  [attr.width]="size"
+  [attr.height]="size"
   aria-hidden="true"
-></span>
+>
+  <use [attr.href]="iconHref"></use>
+</svg>

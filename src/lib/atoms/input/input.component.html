@@ -1,20 +1,9 @@
-<div class="ac-input__wrapper">
-  <input
-    [class]="inputClass"
-    [attr.type]="type"
-    [attr.placeholder]="placeholder"
-    [disabled]="disabled"
-    [value]="value"
-    (input)="onInput($event)"
-  />
-
-  <button
-    class="ac-input__clear"
-    type="button"
-    [style.display]="showClear ? 'inline-flex' : 'none'"
-    (click)="onClear()"
-    aria-label="Clear input"
-  >
-    ×
-  </button>
-</div>
+<button
+  class="ac-input__clear"
+  type="button"
+  [style.display]="showClear ? 'inline-flex' : 'none'"
+  (click)="onClear()"
+  aria-label="Clear input"
+>
+  x
+</button>
