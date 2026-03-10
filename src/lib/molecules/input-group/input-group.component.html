@@ -1,0 +1,9 @@
+<ac-form-field [label]="label" [helperText]="helperText" [errorText]="errorText">
+  <div class="ac-input-group">
+    <span class="ac-input-group__prefix"><ng-content select="[slot=prefix]"></ng-content></span>
+    <div class="ac-input-group__control">
+      <ng-content></ng-content>
+    </div>
+    <span class="ac-input-group__suffix"><ng-content select="[slot=suffix]"></ng-content></span>
+  </div>
+</ac-form-field>

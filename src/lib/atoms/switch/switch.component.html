@@ -1,0 +1,6 @@
+<label class="ac-switch" [class.ac-switch--checked]="checked">
+  <button type="button" [disabled]="disabled" (click)="toggle()">
+    <span class="ac-switch__thumb"></span>
+  </button>
+  <span class="ac-switch__label" *ngIf="label">{{ label }}</span>
+</label>

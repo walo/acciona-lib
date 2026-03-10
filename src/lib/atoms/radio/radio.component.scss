@@ -1,0 +1,16 @@
+.ac-radio {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--ac-space-xs);
+  font-size: var(--ac-font-size-sm);
+  color: var(--ac-color-text);
+}
+
+.ac-radio input {
+  width: 16px;
+  height: 16px;
+}
+
+.ac-radio__label {
+  user-select: none;
+}

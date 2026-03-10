@@ -1,0 +1,9 @@
+<div class="ac-notification-center">
+  <div class="ac-notification" *ngFor="let item of items">
+    <div>
+      <strong>{{ item.title }}</strong>
+      <p *ngIf="item.description">{{ item.description }}</p>
+    </div>
+    <span class="ac-notification__time" *ngIf="item.time">{{ item.time }}</span>
+  </div>
+</div>

@@ -1,0 +1,7 @@
+<div class="ac-file-upload">
+  <label class="ac-file-upload__button">
+    <ac-button size="sm" variant="secondary">{{ label }}</ac-button>
+    <input type="file" [accept]="accept" [disabled]="disabled" (change)="onChange($event)" />
+  </label>
+  <span class="ac-file-upload__name" *ngIf="fileName">{{ fileName }}</span>
+</div>

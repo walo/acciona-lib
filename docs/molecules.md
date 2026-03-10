@@ -11,6 +11,11 @@ Combinaciones de atoms con interaccion controlada.
 - ActionGroup
 - EmptyState
 - StatCard
+- InputGroup
+- PasswordField
+- DatePicker
+- FileUpload
+- Alert
 
 ## Uso rapido
 
@@ -22,7 +27,12 @@ import {
   AcPaginationComponent,
   AcActionGroupComponent,
   AcEmptyStateComponent,
-  AcStatCardComponent
+  AcStatCardComponent,
+  AcInputGroupComponent,
+  AcPasswordFieldComponent,
+  AcDatePickerComponent,
+  AcFileUploadComponent,
+  AcAlertComponent
 } from '@acciona/ui-lib';
 ```
 
@@ -35,6 +45,5 @@ import {
 
 <ac-search-box (search)="onSearch($event)"></ac-search-box>
 
-<ac-breadcrumb [items]="[{ label: 'Inicio', href: '/' }, { label: 'Usuarios' }]">
-</ac-breadcrumb>
+<ac-alert variant="info" title="Aviso" description="Mensaje"></ac-alert>
 ```

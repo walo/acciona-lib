@@ -1,0 +1,16 @@
+<table class="ac-table" *ngIf="data.length; else emptyTpl">
+  <thead>
+    <tr>
+      <th *ngFor="let col of columns">{{ col.label }}</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let row of data" (click)="onRowClick(row)">
+      <td *ngFor="let col of columns">{{ row[col.key] }}</td>
+    </tr>
+  </tbody>
+</table>
+
+<ng-template #emptyTpl>
+  <ac-empty-state [title]="emptyText"></ac-empty-state>
+</ng-template>

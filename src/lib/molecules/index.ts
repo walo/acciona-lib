@@ -5,3 +5,8 @@ export * from './pagination';
 export * from './action-group';
 export * from './empty-state';
 export * from './stat-card';
+export * from './input-group';
+export * from './password-field';
+export * from './date-picker';
+export * from './file-upload';
+export * from './alert';

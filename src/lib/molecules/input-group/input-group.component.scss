@@ -1,0 +1,24 @@
+.ac-input-group {
+  display: flex;
+  align-items: center;
+  gap: var(--ac-space-xs);
+  border: 1px solid var(--ac-color-border);
+  border-radius: var(--ac-radius-md);
+  padding: 0 var(--ac-space-xs);
+  background: var(--ac-color-surface);
+}
+
+.ac-input-group__control {
+  flex: 1;
+}
+
+.ac-input-group__prefix,
+.ac-input-group__suffix {
+  color: var(--ac-color-neutral-500);
+}
+
+.ac-input-group ac-input,
+.ac-input-group ac-textarea {
+  border: none;
+  box-shadow: none;
+}

@@ -1,0 +1,11 @@
+<label class="ac-radio">
+  <input
+    type="radio"
+    [name]="name"
+    [value]="value"
+    [checked]="checked"
+    [disabled]="disabled"
+    (change)="onChange($event)"
+  />
+  <span class="ac-radio__label" *ngIf="label">{{ label }}</span>
+</label>

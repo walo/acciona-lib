@@ -1,0 +1,23 @@
+.ac-file-upload {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--ac-space-sm);
+}
+
+.ac-file-upload__button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+
+.ac-file-upload__button input {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.ac-file-upload__name {
+  font-size: var(--ac-font-size-sm);
+  color: var(--ac-color-neutral-500);
+}
