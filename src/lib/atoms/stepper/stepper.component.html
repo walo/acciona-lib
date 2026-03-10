@@ -1,0 +1,10 @@
+<div class="ac-stepper">
+  <div
+    class="ac-stepper__step"
+    *ngFor="let step of steps; let i = index"
+    [class.ac-stepper__step--active]="i === active"
+  >
+    <span class="ac-stepper__index">{{ i + 1 }}</span>
+    <span class="ac-stepper__label">{{ step }}</span>
+  </div>
+</div>

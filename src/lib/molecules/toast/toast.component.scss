@@ -1,0 +1,22 @@
+.ac-toast {
+  padding: var(--ac-space-sm) var(--ac-space-md);
+  border-radius: var(--ac-radius-md);
+  color: var(--ac-color-surface);
+  background: var(--ac-color-text);
+}
+
+.ac-toast--success {
+  background: var(--ac-color-success);
+}
+
+.ac-toast--warning {
+  background: var(--ac-color-warning);
+}
+
+.ac-toast--danger {
+  background: var(--ac-color-danger);
+}
+
+.ac-toast--info {
+  background: var(--ac-color-info);
+}

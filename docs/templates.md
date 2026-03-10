@@ -9,6 +9,8 @@ Layouts reutilizables para estructuras de pagina.
 - DashboardTemplate
 - SettingsTemplate
 - FormTemplate
+- WizardTemplate
+- ManagementTemplate
 
 ## Uso rapido
 
@@ -18,7 +20,9 @@ import {
   AcAuthLayoutComponent,
   AcDashboardTemplateComponent,
   AcSettingsTemplateComponent,
-  AcFormTemplateComponent
+  AcFormTemplateComponent,
+  AcWizardTemplateComponent,
+  AcManagementTemplateComponent
 } from '@acciona/ui-lib';
 ```
 

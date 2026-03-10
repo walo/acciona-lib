@@ -1,0 +1,11 @@
+<div class="ac-multi-select">
+  <button
+    type="button"
+    class="ac-multi-select__option"
+    *ngFor="let option of options"
+    [class.ac-multi-select__option--selected]="value.includes(option.value)"
+    (click)="toggle(option)"
+  >
+    {{ option.label }}
+  </button>
+</div>

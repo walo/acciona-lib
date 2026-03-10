@@ -13,3 +13,7 @@ export * from './switch';
 export * from './select';
 export * from './textarea';
 export * from './tooltip';
+export * from './slider';
+export * from './progress';
+export * from './stepper';
+export * from './chip';

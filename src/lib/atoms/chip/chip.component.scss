@@ -1,0 +1,14 @@
+.ac-chip {
+  border: 1px solid var(--ac-color-border);
+  border-radius: var(--ac-radius-pill);
+  padding: 4px var(--ac-space-sm);
+  background: var(--ac-color-surface);
+  font-size: var(--ac-font-size-sm);
+  cursor: pointer;
+}
+
+.ac-chip--selected {
+  background: var(--ac-color-neutral-100);
+  border-color: var(--ac-color-primary);
+  color: var(--ac-color-primary);
+}

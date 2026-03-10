@@ -1,0 +1,35 @@
+.ac-sidebar-drawer {
+  position: fixed;
+  inset: 0;
+  z-index: var(--ac-z-overlay);
+}
+
+.ac-sidebar-drawer__backdrop {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.4);
+}
+
+.ac-sidebar-drawer__panel {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: min(360px, 90vw);
+  background: var(--ac-color-surface);
+  box-shadow: var(--ac-shadow-lg);
+  display: flex;
+  flex-direction: column;
+}
+
+.ac-sidebar-drawer__header {
+  padding: var(--ac-space-md);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--ac-color-border);
+}
+
+.ac-sidebar-drawer__content {
+  padding: var(--ac-space-md);
+  overflow: auto;
+}

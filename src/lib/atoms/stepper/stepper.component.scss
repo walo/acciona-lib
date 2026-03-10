@@ -1,0 +1,27 @@
+.ac-stepper {
+  display: flex;
+  gap: var(--ac-space-md);
+}
+
+.ac-stepper__step {
+  display: flex;
+  align-items: center;
+  gap: var(--ac-space-xs);
+  color: var(--ac-color-neutral-500);
+}
+
+.ac-stepper__step--active {
+  color: var(--ac-color-primary);
+  font-weight: var(--ac-font-weight-semibold);
+}
+
+.ac-stepper__index {
+  width: 22px;
+  height: 22px;
+  border-radius: var(--ac-radius-pill);
+  border: 1px solid var(--ac-color-border);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--ac-font-size-xs);
+}

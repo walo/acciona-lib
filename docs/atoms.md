@@ -19,6 +19,10 @@ Componentes base y reutilizables que no contienen logica de negocio.
 - Select
 - Textarea
 - Tooltip
+- Slider
+- Progress
+- Stepper
+- Chip
 
 ## Uso rapido
 
@@ -38,7 +42,11 @@ import {
   AcSwitchComponent,
   AcSelectComponent,
   AcTextareaComponent,
-  AcTooltipComponent
+  AcTooltipComponent,
+  AcSliderComponent,
+  AcProgressComponent,
+  AcStepperComponent,
+  AcChipComponent
 } from '@acciona/ui-lib';
 ```
 
@@ -60,4 +68,8 @@ import {
 <ac-select [options]="[{ label: 'A', value: 'a' }]"></ac-select>
 <ac-textarea placeholder="Notas"></ac-textarea>
 <ac-tooltip text="Info"><span>?</span></ac-tooltip>
+<ac-slider [value]="40"></ac-slider>
+<ac-progress [value]="60"></ac-progress>
+<ac-stepper [steps]="['A','B']" [active]="0"></ac-stepper>
+<ac-chip>Filtro</ac-chip>
 ```
