@@ -1,0 +1,27 @@
+.ac-textarea {
+  width: 100%;
+  min-width: 200px;
+  padding: var(--ac-space-xs) var(--ac-space-md);
+  border-radius: var(--ac-radius-md);
+  border: 1px solid var(--ac-color-border);
+  font-family: var(--ac-font-family-base);
+  font-size: var(--ac-font-size-md);
+}
+
+.ac-textarea:focus {
+  outline: none;
+  border-color: var(--ac-color-primary);
+  box-shadow: 0 0 0 2px rgba(10, 143, 165, 0.15);
+}
+
+.ac-textarea--success {
+  border-color: var(--ac-color-success);
+}
+
+.ac-textarea--warning {
+  border-color: var(--ac-color-warning);
+}
+
+.ac-textarea--error {
+  border-color: var(--ac-color-danger);
+}

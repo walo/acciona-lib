@@ -13,6 +13,12 @@ Componentes base y reutilizables que no contienen logica de negocio.
 - Typography
 - Divider
 - Spinner
+- Checkbox
+- Radio
+- Switch
+- Select
+- Textarea
+- Tooltip
 
 ## Uso rapido
 
@@ -26,7 +32,13 @@ import {
   AcAvatarComponent,
   AcTypographyComponent,
   AcDividerComponent,
-  AcSpinnerComponent
+  AcSpinnerComponent,
+  AcCheckboxComponent,
+  AcRadioComponent,
+  AcSwitchComponent,
+  AcSelectComponent,
+  AcTextareaComponent,
+  AcTooltipComponent
 } from '@acciona/ui-lib';
 ```
 
@@ -42,4 +54,10 @@ import {
 <ac-typography variant="h2">Titulo</ac-typography>
 <ac-divider></ac-divider>
 <ac-spinner size="sm"></ac-spinner>
+<ac-checkbox label="Aceptar"></ac-checkbox>
+<ac-radio name="tipo" value="a" label="A"></ac-radio>
+<ac-switch label="Activo"></ac-switch>
+<ac-select [options]="[{ label: 'A', value: 'a' }]"></ac-select>
+<ac-textarea placeholder="Notas"></ac-textarea>
+<ac-tooltip text="Info"><span>?</span></ac-tooltip>
 ```

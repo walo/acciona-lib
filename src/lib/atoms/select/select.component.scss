@@ -1,0 +1,9 @@
+.ac-select {
+  width: 100%;
+  min-width: 200px;
+  padding: var(--ac-space-xs) var(--ac-space-md);
+  border-radius: var(--ac-radius-md);
+  border: 1px solid var(--ac-color-border);
+  background: var(--ac-color-surface);
+  font-size: var(--ac-font-size-md);
+}

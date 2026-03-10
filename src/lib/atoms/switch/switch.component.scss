@@ -1,0 +1,41 @@
+.ac-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--ac-space-xs);
+}
+
+.ac-switch button {
+  position: relative;
+  width: 40px;
+  height: 22px;
+  border-radius: 999px;
+  border: 1px solid var(--ac-color-border);
+  background: var(--ac-color-neutral-100);
+  cursor: pointer;
+  padding: 0;
+}
+
+.ac-switch__thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--ac-color-surface);
+  box-shadow: var(--ac-shadow-sm);
+  transition: transform var(--ac-motion-base) var(--ac-easing-standard);
+}
+
+.ac-switch--checked button {
+  background: var(--ac-color-primary);
+  border-color: var(--ac-color-primary);
+}
+
+.ac-switch--checked .ac-switch__thumb {
+  transform: translateX(18px);
+}
+
+.ac-switch__label {
+  font-size: var(--ac-font-size-sm);
+}

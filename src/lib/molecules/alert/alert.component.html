@@ -1,0 +1,8 @@
+<div [class]="alertClass">
+  <div class="ac-alert__content">
+    <strong *ngIf="title">{{ title }}</strong>
+    <span *ngIf="description">{{ description }}</span>
+    <ng-content></ng-content>
+  </div>
+  <button *ngIf="closable" class="ac-alert__close" type="button" (click)="onClose()">×</button>
+</div>

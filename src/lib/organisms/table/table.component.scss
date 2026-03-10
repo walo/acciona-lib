@@ -1,0 +1,16 @@
+.ac-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--ac-font-size-sm);
+}
+
+.ac-table th,
+.ac-table td {
+  padding: var(--ac-space-xs) var(--ac-space-sm);
+  border-bottom: 1px solid var(--ac-color-border);
+}
+
+.ac-table tbody tr:hover {
+  background: var(--ac-color-neutral-100);
+  cursor: pointer;
+}

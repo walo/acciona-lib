@@ -1,0 +1,27 @@
+.ac-form-section {
+  border: 1px solid var(--ac-color-border);
+  border-radius: var(--ac-radius-lg);
+  padding: var(--ac-space-md);
+  background: var(--ac-color-surface);
+}
+
+.ac-form-section__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--ac-space-md);
+  margin-bottom: var(--ac-space-sm);
+}
+
+.ac-form-section__header h3 {
+  margin: 0;
+}
+
+.ac-form-section__header p {
+  margin: 0;
+  color: var(--ac-color-neutral-500);
+}
+
+.ac-form-section__actions {
+  margin-left: auto;
+}

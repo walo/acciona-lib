@@ -1,0 +1,6 @@
+<select class="ac-select" [disabled]="disabled" [value]="value" (change)="onChange($event)">
+  <option value="" disabled>{{ placeholder }}</option>
+  <option *ngFor="let option of options" [value]="option.value" [disabled]="option.disabled">
+    {{ option.label }}
+  </option>
+</select>

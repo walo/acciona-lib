@@ -1,0 +1,15 @@
+<div class="ac-modal" *ngIf="open">
+  <div class="ac-modal__backdrop" (click)="close()"></div>
+  <div class="ac-modal__panel" role="dialog" aria-modal="true">
+    <div class="ac-modal__header" *ngIf="title">
+      <h3>{{ title }}</h3>
+      <button type="button" (click)="close()">×</button>
+    </div>
+    <div class="ac-modal__body">
+      <ng-content></ng-content>
+    </div>
+    <div class="ac-modal__footer">
+      <ng-content select="[slot=footer]"></ng-content>
+    </div>
+  </div>
+</div>

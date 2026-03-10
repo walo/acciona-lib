@@ -9,6 +9,10 @@ Bloques funcionales que combinan molecules y atoms.
 - SideNavigation
 - FilterBar
 - AppFooter
+- Modal
+- Table
+- NotificationCenter
+- FormSection
 
 ## Uso rapido
 
@@ -18,7 +22,11 @@ import {
   AcTableToolbarComponent,
   AcSideNavigationComponent,
   AcFilterBarComponent,
-  AcAppFooterComponent
+  AcAppFooterComponent,
+  AcModalComponent,
+  AcTableComponent,
+  AcNotificationCenterComponent,
+  AcFormSectionComponent
 } from '@acciona/ui-lib';
 ```
 

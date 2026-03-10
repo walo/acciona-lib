@@ -3,3 +3,7 @@ export * from './app-header';
 export * from './side-navigation';
 export * from './filter-bar';
 export * from './app-footer';
+export * from './modal';
+export * from './table';
+export * from './notification-center';
+export * from './form-section';

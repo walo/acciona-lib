@@ -1,0 +1,9 @@
+<label class="ac-checkbox">
+  <input
+    type="checkbox"
+    [checked]="checked"
+    [disabled]="disabled"
+    (change)="onChange($event)"
+  />
+  <span class="ac-checkbox__label" *ngIf="label">{{ label }}</span>
+</label>
