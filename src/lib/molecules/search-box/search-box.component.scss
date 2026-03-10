@@ -2,10 +2,17 @@
   display: flex;
   align-items: center;
   gap: var(--ac-space-sm);
+  width: 100%;
+  min-width: 260px;
 }
 
 .ac-search-box__input {
   flex: 1;
+  min-width: 200px;
+}
+
+.ac-search-box ac-input {
+  width: 100%;
 }
 
 .ac-search-box ac-button {
