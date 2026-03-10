@@ -1,0 +1,39 @@
+.ac-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--ac-space-xxs);
+  padding: 4px var(--ac-space-sm);
+  border-radius: var(--ac-radius-pill);
+  font-size: var(--ac-font-size-sm);
+  background: var(--ac-color-neutral-100);
+  color: var(--ac-color-text);
+}
+
+.ac-tag__close {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  color: inherit;
+}
+
+.ac-tag--success {
+  background: rgba(46, 125, 50, 0.12);
+  color: var(--ac-color-success);
+}
+
+.ac-tag--warning {
+  background: rgba(237, 108, 2, 0.12);
+  color: var(--ac-color-warning);
+}
+
+.ac-tag--danger {
+  background: rgba(211, 47, 47, 0.12);
+  color: var(--ac-color-danger);
+}
+
+.ac-tag--info {
+  background: rgba(14, 157, 182, 0.12);
+  color: var(--ac-color-info);
+}

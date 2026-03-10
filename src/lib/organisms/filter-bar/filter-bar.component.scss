@@ -1,0 +1,17 @@
+.ac-filter-bar {
+  display: flex;
+  align-items: center;
+  gap: var(--ac-space-md);
+  padding: var(--ac-space-sm) var(--ac-space-md);
+  border: 1px solid var(--ac-color-border);
+  border-radius: var(--ac-radius-lg);
+  background: var(--ac-color-surface);
+}
+
+.ac-filter-bar__title {
+  font-weight: var(--ac-font-weight-semibold);
+}
+
+.ac-filter-bar__content {
+  flex: 1;
+}

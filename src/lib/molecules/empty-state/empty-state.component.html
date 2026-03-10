@@ -1,0 +1,13 @@
+<div class="ac-empty-state">
+  <div class="ac-empty-state__icon">•</div>
+  <h3 class="ac-empty-state__title">{{ title }}</h3>
+  <p class="ac-empty-state__description" *ngIf="description">{{ description }}</p>
+  <ac-button
+    *ngIf="actionLabel"
+    size="sm"
+    variant="primary"
+    (click)="onAction()"
+  >
+    {{ actionLabel }}
+  </ac-button>
+</div>

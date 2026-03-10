@@ -1,0 +1,38 @@
+.ac-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: var(--ac-radius-pill);
+  font-weight: var(--ac-font-weight-medium);
+  background: var(--ac-color-neutral-100);
+  color: var(--ac-color-text);
+}
+
+.ac-badge--sm {
+  font-size: var(--ac-font-size-xs);
+  padding: 2px var(--ac-space-xs);
+}
+
+.ac-badge--md {
+  font-size: var(--ac-font-size-sm);
+  padding: 4px var(--ac-space-sm);
+}
+
+.ac-badge--success {
+  background: rgba(46, 125, 50, 0.12);
+  color: var(--ac-color-success);
+}
+
+.ac-badge--warning {
+  background: rgba(237, 108, 2, 0.12);
+  color: var(--ac-color-warning);
+}
+
+.ac-badge--danger {
+  background: rgba(211, 47, 47, 0.12);
+  color: var(--ac-color-danger);
+}
+
+.ac-badge--info {
+  background: rgba(14, 157, 182, 0.12);
+  color: var(--ac-color-info);
+}

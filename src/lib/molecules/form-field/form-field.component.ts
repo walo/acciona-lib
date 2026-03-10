@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 
 let nextId = 0;
@@ -7,7 +8,8 @@ let nextId = 0;
   standalone: true,
   templateUrl: './form-field.component.html',
   styleUrls: ['./form-field.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  imports: [CommonModule]
 })
 export class AcFormFieldComponent {
   @Input() label = '';

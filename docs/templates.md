@@ -6,11 +6,18 @@ Layouts reutilizables para estructuras de pagina.
 
 - PageShell
 - AuthLayout
+- DashboardTemplate
+- SettingsTemplate
 
 ## Uso rapido
 
 ```ts
-import { AcPageShellComponent, AcAuthLayoutComponent } from '@acciona/ui-lib';
+import {
+  AcPageShellComponent,
+  AcAuthLayoutComponent,
+  AcDashboardTemplateComponent,
+  AcSettingsTemplateComponent
+} from '@acciona/ui-lib';
 ```
 
 ## Ejemplo

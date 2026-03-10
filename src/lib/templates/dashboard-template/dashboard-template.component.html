@@ -1,0 +1,9 @@
+<ac-page-shell [hasSidebar]="true" [title]="title">
+  <aside slot="sidebar" class="ac-dashboard-template__sidebar">
+    <ng-content select="[slot=sidebar]"></ng-content>
+  </aside>
+
+  <section class="ac-dashboard-template__content">
+    <ng-content></ng-content>
+  </section>
+</ac-page-shell>

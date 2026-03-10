@@ -1,3 +1,4 @@
+import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { AcAppHeaderComponent } from '../../organisms/app-header';
 
@@ -7,7 +8,7 @@ import { AcAppHeaderComponent } from '../../organisms/app-header';
   templateUrl: './page-shell.component.html',
   styleUrls: ['./page-shell.component.scss'],
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [AcAppHeaderComponent]
+  imports: [CommonModule, AcAppHeaderComponent]
 })
 export class AcPageShellComponent {
   @Input() hasSidebar = false;

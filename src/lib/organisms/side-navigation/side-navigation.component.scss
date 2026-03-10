@@ -1,0 +1,18 @@
+.ac-side-navigation {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ac-space-xs);
+}
+
+.ac-side-navigation__item {
+  padding: var(--ac-space-xs) var(--ac-space-sm);
+  border-radius: var(--ac-radius-sm);
+  color: var(--ac-color-text);
+  text-decoration: none;
+}
+
+.ac-side-navigation__item--active {
+  background: var(--ac-color-neutral-100);
+  color: var(--ac-color-primary);
+  font-weight: var(--ac-font-weight-semibold);
+}
