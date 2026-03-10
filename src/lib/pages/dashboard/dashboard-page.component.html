@@ -1,0 +1,20 @@
+<ac-page-shell title="Dashboard" [hasSidebar]="true">
+  <nav slot="sidebar" class="ac-dashboard__nav">
+    <a class="ac-dashboard__link" href="#">Resumen</a>
+    <a class="ac-dashboard__link" href="#">Proyectos</a>
+    <a class="ac-dashboard__link" href="#">Reportes</a>
+  </nav>
+
+  <section class="ac-dashboard__content">
+    <ac-table-toolbar
+      title="Actividad reciente"
+      [showFilters]="true"
+    ></ac-table-toolbar>
+
+    <div class="ac-dashboard__grid">
+      <div class="ac-dashboard__card">Estado general</div>
+      <div class="ac-dashboard__card">Indicadores</div>
+      <div class="ac-dashboard__card">Alertas</div>
+    </div>
+  </section>
+</ac-page-shell>
