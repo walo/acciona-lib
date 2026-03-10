@@ -1,0 +1,9 @@
+<div class="ac-inline-edit">
+  <ng-container *ngIf="!editing; else editTpl">
+    <span>{{ value }}</span>
+    <button type="button" (click)="start()">Editar</button>
+  </ng-container>
+  <ng-template #editTpl>
+    <ac-input [value]="value" (valueChange)="save($event)"></ac-input>
+  </ng-template>
+</div>

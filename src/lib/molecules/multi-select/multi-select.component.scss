@@ -1,0 +1,19 @@
+.ac-multi-select {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--ac-space-xs);
+}
+
+.ac-multi-select__option {
+  border: 1px solid var(--ac-color-border);
+  border-radius: var(--ac-radius-pill);
+  background: var(--ac-color-surface);
+  padding: 4px var(--ac-space-sm);
+  cursor: pointer;
+}
+
+.ac-multi-select__option--selected {
+  border-color: var(--ac-color-primary);
+  color: var(--ac-color-primary);
+  background: var(--ac-color-neutral-100);
+}

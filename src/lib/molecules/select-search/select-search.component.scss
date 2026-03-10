@@ -1,0 +1,12 @@
+.ac-select-search__list {
+  margin-top: var(--ac-space-xs);
+  border: 1px solid var(--ac-color-border);
+  border-radius: var(--ac-radius-md);
+  background: var(--ac-color-surface);
+  max-height: 160px;
+  overflow: auto;
+}
+
+.ac-select-search__item {
+  padding: var(--ac-space-xs) var(--ac-space-sm);
+}

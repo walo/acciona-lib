@@ -1,0 +1,12 @@
+.ac-inline-edit {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--ac-space-xs);
+}
+
+.ac-inline-edit button {
+  border: none;
+  background: transparent;
+  color: var(--ac-color-primary);
+  cursor: pointer;
+}

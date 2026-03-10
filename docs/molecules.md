@@ -16,6 +16,12 @@ Combinaciones de atoms con interaccion controlada.
 - DatePicker
 - FileUpload
 - Alert
+- SelectSearch
+- MultiSelect
+- Autocomplete
+- DateRange
+- InlineEdit
+- Toast
 
 ## Uso rapido
 
@@ -32,7 +38,13 @@ import {
   AcPasswordFieldComponent,
   AcDatePickerComponent,
   AcFileUploadComponent,
-  AcAlertComponent
+  AcAlertComponent,
+  AcSelectSearchComponent,
+  AcMultiSelectComponent,
+  AcAutocompleteComponent,
+  AcDateRangeComponent,
+  AcInlineEditComponent,
+  AcToastComponent
 } from '@acciona/ui-lib';
 ```
 

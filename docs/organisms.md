@@ -13,6 +13,11 @@ Bloques funcionales que combinan molecules y atoms.
 - Table
 - NotificationCenter
 - FormSection
+- AdvancedTable
+- DataGrid
+- Wizard
+- SidebarDrawer
+- NotificationToastStack
 
 ## Uso rapido
 
@@ -26,7 +31,12 @@ import {
   AcModalComponent,
   AcTableComponent,
   AcNotificationCenterComponent,
-  AcFormSectionComponent
+  AcFormSectionComponent,
+  AcAdvancedTableComponent,
+  AcDataGridComponent,
+  AcWizardComponent,
+  AcSidebarDrawerComponent,
+  AcNotificationToastStackComponent
 } from '@acciona/ui-lib';
 ```
 

@@ -1,0 +1,12 @@
+<div class="ac-sidebar-drawer" *ngIf="open">
+  <div class="ac-sidebar-drawer__backdrop" (click)="close()"></div>
+  <aside class="ac-sidebar-drawer__panel">
+    <header class="ac-sidebar-drawer__header">
+      <h3>{{ title }}</h3>
+      <button type="button" (click)="close()">×</button>
+    </header>
+    <div class="ac-sidebar-drawer__content">
+      <ng-content></ng-content>
+    </div>
+  </aside>
+</div>

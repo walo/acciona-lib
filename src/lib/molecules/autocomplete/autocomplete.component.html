@@ -1,0 +1,6 @@
+<div class="ac-autocomplete">
+  <ac-input [value]="value" (valueChange)="onValueChange($event)" placeholder="Buscar"></ac-input>
+  <div class="ac-autocomplete__list">
+    <div class="ac-autocomplete__item" *ngFor="let option of options">{{ option.label }}</div>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="ac-select-search">
+  <ac-input placeholder="Buscar" [value]="query" (valueChange)="onQueryChange($event)"></ac-input>
+  <div class="ac-select-search__list">
+    <div class="ac-select-search__item" *ngFor="let option of options">
+      {{ option.label }}
+    </div>
+  </div>
+</div>
