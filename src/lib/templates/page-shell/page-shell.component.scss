@@ -1,0 +1,37 @@
+.ac-page-shell {
+  min-height: 100vh;
+  background-color: var(--ac-color-neutral-100);
+}
+
+.ac-page-shell__body {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.ac-page-shell--sidebar .ac-page-shell__body {
+  grid-template-columns: 260px 1fr;
+}
+
+.ac-page-shell__sidebar {
+  border-right: 1px solid var(--ac-color-border);
+  background: var(--ac-color-surface);
+  padding: var(--ac-space-md);
+}
+
+.ac-page-shell__content {
+  padding: var(--ac-space-lg);
+}
+
+.ac-page-shell__content--fluid {
+  max-width: none;
+}
+
+.ac-page-shell__content--xl {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ac-page-shell__content--2xl {
+  max-width: 1440px;
+  margin: 0 auto;
+}

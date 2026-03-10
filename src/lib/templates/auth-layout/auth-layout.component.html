@@ -1,0 +1,10 @@
+<section [class]="layoutClass">
+  <div class="ac-auth-layout__panel">
+    <h1 class="ac-auth-layout__title">{{ title }}</h1>
+    <p class="ac-auth-layout__subtitle" *ngIf="subtitle">{{ subtitle }}</p>
+
+    <div class="ac-auth-layout__content">
+      <ng-content></ng-content>
+    </div>
+  </div>
+</section>

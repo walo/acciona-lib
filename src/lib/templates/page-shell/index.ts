@@ -1,5 +1,2 @@
-export interface AcPageShellConfig {
-  hasSidebar?: boolean;
-  hasTopbar?: boolean;
-  maxContentWidth?: 'fluid' | 'xl' | '2xl';
-}
+export * from './page-shell.component';
+export * from './page-shell.types';
