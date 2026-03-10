@@ -1,0 +1,19 @@
+:root {
+  --ac-color-primary: #0052cc;
+  --ac-color-primary-hover: #1f6bff;
+  --ac-color-surface: #ffffff;
+  --ac-color-text: #1f2937;
+  --ac-color-border: #e5e7eb;
+
+  --ac-space-xs: 8px;
+  --ac-space-sm: 12px;
+  --ac-space-md: 16px;
+  --ac-space-lg: 24px;
+
+  --ac-radius-sm: 4px;
+  --ac-radius-md: 8px;
+  --ac-radius-lg: 12px;
+
+  --ac-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.08);
+  --ac-shadow-md: 0 4px 12px rgba(15, 23, 42, 0.12);
+}
