@@ -1,5 +1,2 @@
-export interface AcSearchBoxConfig {
-  placeholder?: string;
-  debounceMs?: number;
-  showFilters?: boolean;
-}
+export * from './search-box.component';
+export * from './search-box.types';
