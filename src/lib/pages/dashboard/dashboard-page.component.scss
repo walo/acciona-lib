@@ -1,0 +1,32 @@
+.ac-dashboard__nav {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ac-space-sm);
+}
+
+.ac-dashboard__link {
+  color: var(--ac-color-text);
+  text-decoration: none;
+  font-weight: var(--ac-font-weight-medium);
+}
+
+.ac-dashboard__content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--ac-space-lg);
+}
+
+.ac-dashboard__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: var(--ac-space-md);
+}
+
+.ac-dashboard__card {
+  background: var(--ac-color-surface);
+  border: 1px solid var(--ac-color-border);
+  border-radius: var(--ac-radius-lg);
+  padding: var(--ac-space-lg);
+  min-height: 120px;
+  box-shadow: var(--ac-shadow-sm);
+}
