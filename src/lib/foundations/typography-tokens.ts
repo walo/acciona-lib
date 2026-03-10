@@ -1,0 +1,21 @@
+export const typographyTokens = {
+  fontFamilyBase: '"Source Sans 3", "Segoe UI", Arial, sans-serif',
+  fontFamilyMono: '"JetBrains Mono", "Cascadia Mono", "Consolas", monospace',
+  fontSizeXs: 12,
+  fontSizeSm: 14,
+  fontSizeMd: 16,
+  fontSizeLg: 18,
+  fontSizeXl: 20,
+  fontSizeXxl: 24,
+  fontSizeDisplay: 32,
+  lineHeightTight: 1.2,
+  lineHeightNormal: 1.5,
+  lineHeightRelaxed: 1.7,
+  fontWeightRegular: 400,
+  fontWeightMedium: 500,
+  fontWeightSemibold: 600,
+  fontWeightBold: 700,
+  letterSpacingTight: -0.2,
+  letterSpacingNormal: 0,
+  letterSpacingWide: 0.2
+} as const;
