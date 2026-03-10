@@ -1,5 +1,2 @@
-export interface AcInputConfig {
-  type?: 'text' | 'email' | 'password' | 'number';
-  status?: 'default' | 'success' | 'warning' | 'error';
-  clearable?: boolean;
-}
+export * from './input.component';
+export * from './input.types';

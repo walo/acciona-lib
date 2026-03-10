@@ -1,5 +1,2 @@
-export interface AcIconConfig {
-  name: string;
-  size?: number;
-  spin?: boolean;
-}
+export * from './icon.component';
+export * from './icon.types';
