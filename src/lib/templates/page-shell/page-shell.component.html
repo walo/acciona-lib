@@ -1,0 +1,13 @@
+<div class="ac-page-shell" [class.ac-page-shell--sidebar]="hasSidebar">
+  <ac-app-header *ngIf="hasTopbar" [productName]="title"></ac-app-header>
+
+  <div class="ac-page-shell__body">
+    <aside class="ac-page-shell__sidebar" *ngIf="hasSidebar">
+      <ng-content select="[slot=sidebar]"></ng-content>
+    </aside>
+
+    <main [class]="contentClass">
+      <ng-content></ng-content>
+    </main>
+  </div>
+</div>
