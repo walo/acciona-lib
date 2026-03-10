@@ -1,6 +1,17 @@
 <div class="ac-autocomplete">
-  <ac-input [value]="value" (valueChange)="onValueChange($event)" placeholder="Buscar"></ac-input>
-  <div class="ac-autocomplete__list">
-    <div class="ac-autocomplete__item" *ngFor="let option of options">{{ option.label }}</div>
+  <ac-input
+    [value]="value"
+    [placeholder]="placeholder"
+    (valueChange)="onValueChange($event)"
+  ></ac-input>
+  <div class="ac-autocomplete__list" *ngIf="filteredOptions.length">
+    <button
+      type="button"
+      class="ac-autocomplete__item"
+      *ngFor="let option of filteredOptions"
+      (click)="select(option)"
+    >
+      {{ option.label }}
+    </button>
   </div>
 </div>
