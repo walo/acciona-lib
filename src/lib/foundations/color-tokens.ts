@@ -1,10 +1,10 @@
 export const colorTokens = {
-  brandPrimary: '#0052CC',
-  brandPrimaryHover: '#1F6BFF',
+  brandPrimary: '#0A8FA5',
+  brandPrimaryHover: '#13A9C1',
   success: '#2E7D32',
   warning: '#ED6C02',
   danger: '#D32F2F',
-  info: '#0284C7',
+  info: '#0E9DB6',
   neutral900: '#1F2937',
   neutral700: '#374151',
   neutral500: '#6B7280',
