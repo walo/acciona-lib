@@ -1,5 +1,2 @@
-export interface AcAppHeaderConfig {
-  productName: string;
-  showNotifications?: boolean;
-  showProfile?: boolean;
-}
+export * from './app-header.component';
+export * from './app-header.types';

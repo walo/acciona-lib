@@ -1,6 +1,2 @@
-export interface AcTableToolbarConfig {
-  title: string;
-  showSearch?: boolean;
-  showExport?: boolean;
-  showSettings?: boolean;
-}
+export * from './table-toolbar.component';
+export * from './table-toolbar.types';

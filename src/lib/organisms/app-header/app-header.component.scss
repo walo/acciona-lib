@@ -1,0 +1,86 @@
+.ac-app-header {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: var(--ac-space-lg);
+  padding: var(--ac-space-sm) var(--ac-space-lg);
+  background-color: var(--ac-color-surface);
+  border-bottom: 1px solid var(--ac-color-border);
+  box-shadow: var(--ac-shadow-sm);
+}
+
+.ac-app-header__left {
+  display: flex;
+  align-items: center;
+  gap: var(--ac-space-sm);
+}
+
+.ac-app-header__logo {
+  width: 32px;
+  height: 32px;
+  border-radius: var(--ac-radius-sm);
+  background-color: var(--ac-color-primary);
+}
+
+.ac-app-header__title {
+  font-size: var(--ac-font-size-lg);
+  font-weight: var(--ac-font-weight-semibold);
+}
+
+.ac-app-header__center {
+  max-width: 520px;
+}
+
+.ac-app-header__right {
+  display: flex;
+  align-items: center;
+  gap: var(--ac-space-sm);
+}
+
+.ac-app-header__icon-button {
+  border: 1px solid var(--ac-color-border);
+  background: var(--ac-color-surface);
+  border-radius: var(--ac-radius-pill);
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: border-color var(--ac-motion-base) var(--ac-easing-standard),
+    color var(--ac-motion-base) var(--ac-easing-standard);
+}
+
+.ac-app-header__icon-button:hover {
+  border-color: var(--ac-color-primary);
+  color: var(--ac-color-primary);
+}
+
+.ac-app-header__profile {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--ac-space-xs);
+  padding: var(--ac-space-xxs) var(--ac-space-sm);
+  border-radius: var(--ac-radius-pill);
+  border: 1px solid var(--ac-color-border);
+  background: var(--ac-color-surface);
+  cursor: pointer;
+  font-size: var(--ac-font-size-sm);
+  font-weight: var(--ac-font-weight-medium);
+}
+
+.ac-app-header__avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: var(--ac-radius-pill);
+  background-color: var(--ac-color-neutral-300);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--ac-font-size-xs);
+  color: var(--ac-color-neutral-700);
+}
+
+.ac-app-header__profile-text {
+  color: var(--ac-color-text);
+}
