@@ -1,11 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
 import { AcEmptyStateComponent } from '../../molecules/empty-state';
-
-export interface AcTableColumn {
-  key: string;
-  label: string;
-}
+import { AcTableColumn } from './table.types';
 
 @Component({
   selector: 'ac-table',

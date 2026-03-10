@@ -1,10 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
-
-export interface AcMultiSelectOption {
-  label: string;
-  value: string;
-}
+import { AcMultiSelectOption } from './multi-select.types';
 
 @Component({
   selector: 'ac-multi-select',

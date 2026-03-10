@@ -1,12 +1,24 @@
 {
   "name": "@acciona/ui-lib",
   "version": "0.1.0",
-  "description": "Base de librería de componentes con Atomic Design para Angular",
-  "private": true,
+  "description": "Base de libreria de componentes con Atomic Design para Angular",
+  "private": false,
   "scripts": {
-    "lint": "echo 'Define aquí tu pipeline de lint (eslint/stylelint)'",
-    "test": "echo 'Define aquí tu pipeline de tests (jest/karma)'",
-    "build": "echo 'Define aquí tu pipeline de build (ng-packagr)'"
+    "lint": "echo 'Define aqui tu pipeline de lint (eslint/stylelint)'",
+    "test": "echo 'Define aqui tu pipeline de tests (jest/karma)'",
+    "build": "ng-packagr -p ng-package.json"
+  },
+  "peerDependencies": {
+    "@angular/common": ">=17.0.0",
+    "@angular/core": ">=17.0.0"
+  },
+  "devDependencies": {
+    "@angular/common": "^21.0.0",
+    "@angular/compiler": "^21.0.0",
+    "@angular/compiler-cli": "^21.0.0",
+    "@angular/core": "^21.0.0",
+    "ng-packagr": "^21.0.1",
+    "typescript": "^5.9.0"
   },
   "keywords": [
     "angular",

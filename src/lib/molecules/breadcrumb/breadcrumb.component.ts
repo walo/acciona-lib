@@ -1,10 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
-
-export interface AcBreadcrumbItem {
-  label: string;
-  href?: string;
-}
+import { AcBreadcrumbItem } from './breadcrumb.types';
 
 @Component({
   selector: 'ac-breadcrumb',

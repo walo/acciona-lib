@@ -1,11 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, EventEmitter, Input, Output } from '@angular/core';
 import { AcInputComponent } from '../../atoms/input';
-
-export interface AcAutocompleteOption {
-  label: string;
-  value: string;
-}
+import { AcAutocompleteOption } from './autocomplete.types';
 
 @Component({
   selector: 'ac-autocomplete',
