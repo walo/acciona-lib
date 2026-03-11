@@ -11,4 +11,6 @@ import { AcPageShellComponent } from '../page-shell';
 })
 export class AcFormTemplateComponent {
   @Input() title = 'Formulario';
+  @Input() hasTopbar = true;
+  @Input() maxContentWidth: 'fluid' | 'xl' | '2xl' = 'xl';
 }
