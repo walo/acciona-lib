@@ -22,11 +22,16 @@
 }
 
 .ac-modal__header {
-  padding: var(--ac-space-md) var(--ac-space-lg);
+  padding: var(--ac-space-sm) var(--ac-space-lg);
   border-bottom: 1px solid var(--ac-color-border);
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.ac-modal__header h3 {
+  margin: 0;
+  font-size: var(--ac-font-size-lg);
 }
 
 .ac-modal__footer {
