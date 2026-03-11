@@ -2,11 +2,16 @@
   display: block;
   width: 100%;
   min-width: 0;
+  max-width: 100%;
+  max-height: 12rem;
+  overflow-y: auto;
+  resize: vertical;
   padding: var(--ac-space-xs) var(--ac-space-md);
   border-radius: var(--ac-radius-md);
   border: 1px solid var(--ac-color-border);
   font-family: var(--ac-font-family-base);
   font-size: var(--ac-font-size-md);
+  box-sizing: border-box;
 }
 
 .ac-textarea:focus {
