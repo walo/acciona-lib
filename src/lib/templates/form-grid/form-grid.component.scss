@@ -1,0 +1,5 @@
+.ac-form-grid {
+  display: grid;
+  grid-template-columns: repeat(var(--ac-form-grid-cols, 24), 1fr);
+  gap: var(--ac-space-lg);
+}
