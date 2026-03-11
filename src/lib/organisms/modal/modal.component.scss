@@ -38,6 +38,13 @@
   gap: var(--ac-space-sm);
 }
 
+.ac-modal__footer > * {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: var(--ac-space-sm);
+}
+
 .ac-modal__body {
   padding: var(--ac-space-lg);
 }
