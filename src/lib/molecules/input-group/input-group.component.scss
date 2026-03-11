@@ -1,24 +1,44 @@
+:host {
+  display: block;
+  width: 100%;
+}
+
 .ac-input-group {
   display: flex;
-  align-items: center;
+  align-items: stretch;
   gap: var(--ac-space-xs);
   border: 1px solid var(--ac-color-border);
   border-radius: var(--ac-radius-md);
   padding: 0 var(--ac-space-xs);
   background: var(--ac-color-surface);
+  width: 100%;
 }
 
 .ac-input-group__control {
-  flex: 1;
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  align-items: stretch;
 }
 
 .ac-input-group__prefix,
 .ac-input-group__suffix {
   color: var(--ac-color-neutral-500);
+  display: inline-flex;
+  align-items: center;
 }
 
 .ac-input-group ac-input,
 .ac-input-group ac-textarea {
   border: none;
   box-shadow: none;
+  width: 100%;
+}
+
+.ac-input-group ac-input,
+.ac-input-group ac-textarea,
+.ac-input-group .ac-input,
+.ac-input-group .ac-textarea {
+  min-width: 0;
+  flex: 1 1 auto;
 }
